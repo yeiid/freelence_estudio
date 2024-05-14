@@ -9,7 +9,7 @@ const Links = () => {
       <p>
         Utiliza la etiqueta <code>&lt;a&gt;</code> para crear enlaces:
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`<a href="https://www.ejemplo.com">Enlace a Ejemplo.com</a>`}
       </pre>
     </div>

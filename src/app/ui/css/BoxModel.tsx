@@ -9,7 +9,7 @@ const BoxModel = () => {
       <p>
         El modelo de caja es fundamental en CSS y describe cómo se representan los elementos en la página. Incluye el contenido, el padding, el borde y el margen.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`.caja {
   width: 200px;
   height: 100px;

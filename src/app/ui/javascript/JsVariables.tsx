@@ -9,7 +9,7 @@ const JsVariables = () => {
       <p>
         Las variables se utilizan para almacenar valores. En JavaScript, puedes declarar variables con la palabra clave <code>var</code>, <code>let</code>, o <code>const</code>.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`var nombre = "Juan";
 let edad = 25;
 const PI = 3.14;`}

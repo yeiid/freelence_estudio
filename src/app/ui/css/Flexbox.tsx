@@ -9,7 +9,7 @@ const Flexbox = () => {
       <p>
         Flexbox es un modelo de diseño que permite diseñar diseños complejos y alineaciones con facilidad.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`.contenedor-flex {
   display: flex;
   justify-content: space-between;

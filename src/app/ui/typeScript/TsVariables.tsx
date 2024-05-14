@@ -9,7 +9,7 @@ const TsVariables = () => {
       <p>
         En TypeScript, puedes declarar variables con tipos específicos utilizando la sintaxis de dos puntos (<code>:</code>).
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`let nombre: string = "Juan";
 let edad: number = 25;
 const PI: number = 3.14;`}

@@ -9,7 +9,7 @@ const PythonVariables = () => {
       <p>
         En Python, puedes asignar valores a variables sin especificar un tipo de datos.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`nombre = "Juan"
 edad = 25
 pi = 3.14`}

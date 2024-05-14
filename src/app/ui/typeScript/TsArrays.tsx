@@ -9,7 +9,7 @@ const TsArrays = () => {
       <p>
         Puedes añadir tipos a los elementos de un arreglo en TypeScript.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`let colores: string[] = ["rojo", "verde", "azul"];
 let primerColor: string = colores[0];`}
       </pre>

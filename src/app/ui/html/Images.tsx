@@ -9,7 +9,7 @@ const Images = () => {
       <p>
         Agrega imágenes a tu página con la etiqueta <code>&lt;img&gt;</code>:
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`<img src="ruta-de-la-imagen.jpg" alt="Descripción de la imagen">`}
       </pre>
     </div>

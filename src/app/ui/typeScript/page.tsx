@@ -8,7 +8,7 @@ import TsArrays from './TsArrays';
 
 const TypeScriptBasics = () => {
   return (
-    <div className="max-w-2xl mx-auto mt-8 p-8 bg-white shadow-md rounded-md">
+    <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white box">
       <h2 className="text-3xl font-semibold mb-4">Fundamentos de TypeScript</h2>
       <div className="mb-6">
         <p className="text-gray-700">

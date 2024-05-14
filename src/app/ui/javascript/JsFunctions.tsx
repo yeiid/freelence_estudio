@@ -9,7 +9,7 @@ const JsFunctions = () => {
       <p>
         Las funciones son bloques de código reutilizables. Puedes declarar funciones con la palabra clave <code>function</code>.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`function saludar(nombre) {
   return "Hola, " + nombre + "!";
 }

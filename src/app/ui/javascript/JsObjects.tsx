@@ -9,7 +9,7 @@ const JsObjects = () => {
       <p>
         Los objetos en JavaScript permiten agrupar datos y funciones relacionados. Puedes crear objetos utilizando la notación de llaves.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`let persona = {
   nombre: "Ana",
   edad: 30,

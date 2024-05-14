@@ -9,7 +9,7 @@ const PythonDictionaries = () => {
       <p>
         Los diccionarios en Python permiten almacenar pares clave-valor.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`persona = {"nombre": "Ana", "edad": 30}`}
       </pre>
     </div>

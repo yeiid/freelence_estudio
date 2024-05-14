@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cursos YEIIDH
 
-## Getting Started
+Cursos YEIIDH es una plataforma educativa dedicada a proporcionar recursos de aprendizaje de alta calidad en diversas áreas del conocimiento. Nuestra misión es facilitar el acceso a la educación y promover el desarrollo personal y profesional a través de cursos interactivos y dinámicos.
 
-First, run the development server:
+## Características Principales
+- Variedad de Cursos
+- Interactividad
+- Recursos Visuales
+- Comunidad Colaborativa
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologías Utilizadas
+- **Frontend**: Next.js, Tailwind CSS, React
+- **Backend**: Node.js, Express
+- **Base de Datos**: MongoDB
+- **Otros**: Git, Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cómo Contribuir
+- **Reportar Bugs**: Si encuentras algún error, por favor repórtalo en la sección de Issues.
+- **Proponer Mejoras**: Si tienes ideas para nuevas características o mejoras, siéntete libre de abrir un Issue o enviar un Pull Request.
+- **Documentación**: Ayúdanos a mejorar nuestra documentación para que sea más clara y accesible para todos.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Repositorio en GitHub
+[GitHub - Cursos YEIIDH](https://github.com/tu-usuario/cursos-yeiidh)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Conéctate con Nosotros
+- **Twitter**: [@CursosYEIIDH](https://twitter.com/CursosYEIIDH)
+- **LinkedIn**: [Cursos YEIIDH en LinkedIn](https://www.linkedin.com/company/cursos-yeiidh)
+- **Instagram**: [@CursosYEIIDH](https://www.instagram.com/CursosYEIIDH)

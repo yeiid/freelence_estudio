@@ -9,7 +9,7 @@ const TsInterfaces = () => {
       <p>
         Las interfaces en TypeScript te permiten definir la forma de un objeto. Puedes utilizarlas para garantizar que los objetos cumplan con una estructura específica.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`interface Persona {
   nombre: string;
   edad: number;

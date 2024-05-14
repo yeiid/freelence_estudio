@@ -9,7 +9,7 @@ const JsArrays = () => {
       <p>
         Los arreglos son listas ordenadas de valores. Puedes crear arreglos utilizando corchetes y acceder a elementos por su índice.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`let colores = ["rojo", "verde", "azul"];
 let primerColor = colores[0];`}
       </pre>

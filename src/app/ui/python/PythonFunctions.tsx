@@ -9,7 +9,7 @@ const PythonFunctions = () => {
       <p>
         En Python, puedes definir funciones con la palabra clave <code>def</code>.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`def saludar(nombre):
     return "Hola, " + nombre + "!"
 

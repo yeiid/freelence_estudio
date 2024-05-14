@@ -9,7 +9,7 @@ const PythonLists = () => {
       <p>
         Las listas en Python pueden contener elementos de diferentes tipos.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`colores = ["rojo", "verde", "azul"]
 primer_color = colores[0]`}
       </pre>

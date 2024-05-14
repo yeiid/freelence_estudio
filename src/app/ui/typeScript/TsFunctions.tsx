@@ -9,7 +9,7 @@ const TsFunctions = () => {
       <p>
         En TypeScript, puedes añadir tipos a los parámetros y al valor de retorno de las funciones.
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`function saludar(nombre: string): string {
           return "Hola, " + nombre + "!";
   }   let resultado: string = saludar("Miguel");`}

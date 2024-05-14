@@ -9,7 +9,7 @@ const Lists = () => {
       <p>
         Puedes utilizar listas ordenadas y no ordenadas para organizar información:
       </p>
-      <pre className="bg-gray-100 p-4 rounded-md">
+      <pre className="bg-gray-600 p-4 rounded-md">
         {`<ul>
   <li>Elemento 1</li>
   <li>Elemento 2</li>
