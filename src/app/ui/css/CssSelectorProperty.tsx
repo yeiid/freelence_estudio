@@ -1,8 +1,8 @@
-// CssSelectorProperty.js
-
-import React from "react";
-
+import CodeBlock from "@/components/CodeBlock";
+import { Dat } from "@/data/example";
 const CssSelectorProperty = () => {
+  const example = Dat.CSS.content.example1.CssSelectorProperty
+
   return (
     <div className="mb-6">
       <h3 className="text-2xl font-semibold mb-2">Selector y Propiedad</h3>
@@ -12,10 +12,7 @@ const CssSelectorProperty = () => {
         elementos con la clase mi-elemento.
       </p>
       <pre className="bg-gray-600 p-4 rounded-md">
-        {`.mi-elemento {
-  background-color: #f0f0f0;}
-  .mi-elemento {
-    background-color: #f0f0f0;}`}
+      <CodeBlock Content={example}/>
       </pre>
     </div>
   );

@@ -14,12 +14,11 @@ const CssBasics = () => {
           CSS (Cascading Style Sheets) se utiliza para dar estilo a páginas web.
           Aquí tienes algunas propiedades y conceptos básicos:
         </p>
-      </div>
+      </div> 
       <CssSelectorProperty />
       <BoxModel />
       <Flexbox />
     </div>
-    
   );
 };
 

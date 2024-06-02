@@ -1,11 +1,5 @@
-// PythonBasics.js
-
-import React from 'react';
-import PythonVariables from './PythonVariables';
-import PythonFunctions from './PythonFunctions';
-import PythonLists from './PythonLists';
-import PythonDictionaries from './PythonDictionaries';
-
+import HtmlComponet from "../../../components/SectionComponet";
+import { Dat } from "@/data/example";
 const PythonBasics = () => {
   return (
     <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white box">
@@ -15,10 +9,21 @@ const PythonBasics = () => {
           Python es un lenguaje de programación versátil y fácil de aprender. Aquí tienes algunos conceptos básicos:
         </p>
       </div>
-      <PythonVariables />
-      <PythonFunctions />
-      <PythonLists />
-      <PythonDictionaries />
+      <HtmlComponet
+        title={Dat.PYTHON.Basics.title}
+        example={Dat.PYTHON.content.example1.Basics}
+        description={Dat.PYTHON.Basics.description}
+      />
+      <HtmlComponet
+        title={Dat.PYTHON.Functions.title}
+        example={Dat.PYTHON.content.example1.Functions}
+        description={Dat.PYTHON.Functions.description}
+      />
+      <HtmlComponet
+        title={Dat.PYTHON.Classes.title}
+        example={Dat.PYTHON.content.example1.Classes}
+        description={Dat.PYTHON.Classes.description}
+      />
     </div>
   );
 };

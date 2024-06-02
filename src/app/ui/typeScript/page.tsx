@@ -1,11 +1,6 @@
-// TypeScriptBasics.js
 
-import React from 'react';
-import TsVariables from './TsVariables';
-import TsFunctions from './TsFunctions';
-import TsInterfaces from './TsInterfaces';
-import TsArrays from './TsArrays';
-
+import SectionComponet from "@/components/SectionComponet"
+import { Dat } from "@/data/example";
 const TypeScriptBasics = () => {
   return (
     <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white box">
@@ -15,10 +10,22 @@ const TypeScriptBasics = () => {
           TypeScript es un superset de JavaScript que agrega tipos estáticos opcionales. Aquí tienes algunos conceptos básicos:
         </p>
       </div>
-      <TsVariables />
-      <TsFunctions />
-      <TsInterfaces />
-      <TsArrays />
+      <SectionComponet
+        title={Dat.TS.Basics.title}
+        example={Dat.TS.content.example1.Basics}
+        description={Dat.TS.Basics.description}
+      />
+      <SectionComponet
+        title={Dat.TS.Interfaces.title}
+        example={Dat.TS.content.example1.Interfaces}
+        description={Dat.TS.Interfaces.description}
+      />
+      <SectionComponet
+        title={Dat.TS.Generics.title}
+        example={Dat.TS.content.example1.Generics}
+        description={Dat.TS.Generics.description}
+      />
+
     </div>
   );
 };

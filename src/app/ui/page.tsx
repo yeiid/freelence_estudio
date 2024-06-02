@@ -1,22 +1,30 @@
+"use client";
+import React, { useState } from "react";
+import NavLinks from "@/components/NavLinks";
+import CourseCarousel from "@/components/CourseCarousel";
+import { courses } from "@/data/courses";
 
-import ExamplePage from "@/components/examplesscripts"
-const HtmlIntroduction = () => {
+const HomePage: React.FC = () => {
+  const [selectedCourse, setSelectedCourse] = useState(courses[0]);
+
   return (
-    <div className="  bg-gradient-to-r from-blue-500 to-purple-600 text-white  box">
-      <h2 className="text-3xl font-semibold mb-4">Introducción a HTML</h2>
-      <div>
-        <p className="text-gray-700">
-          HTML (HyperText Markup Language) es el lenguaje utilizado para
-          estructurar el contenido en la web. Aquí tienes una visión general de
-          algunos conceptos básicos de HTML:
-        </p>
+    <div className="container mx-auto p-4">
+      <h1 className="text-4xl font-bold mb-6 text-center">
+        Bienvenidos a Cursos YEIIDH
+      </h1>
+      <p className="mb-6 text-center">
+        Explora nuestros cursos para aprender HTML, CSS, JavaScript y más.
+      </p>
+
+      <div className="mt-8">
+        <h2 className="text-2xl font-semibold mb-4 text-center">
+          Proyectos Destacados
+        </h2>
+        <CourseCarousel images={selectedCourse.images} />
       </div>
-      <ExamplePage/>
+      <NavLinks />
     </div>
-
-
-
   );
 };
 
-export default HtmlIntroduction;
+export default HomePage;
